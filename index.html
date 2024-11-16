@@ -10,23 +10,28 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
 
   <script type="module" crossorigin src="/goit-js-hw-12/index.js"></script>
   <link rel="modulepreload" crossorigin href="/goit-js-hw-12/assets/vendor-BzajH6aU.js">
   <link rel="stylesheet" crossorigin href="/goit-js-hw-12/assets/vendor-CWKLx11g.css">
-  <link rel="stylesheet" crossorigin href="/goit-js-hw-12/assets/index-C_QqJytT.css">
+  <link rel="stylesheet" crossorigin href="/goit-js-hw-12/assets/index-58EO03ST.css">
 </head>
 
 <body>
-  <form class="js-search-form search-form">
+  <form class="js-search-form  ">
 
-    <input type="text" name="foto" placeholder="Search images..." />
-    <button type="submit" data-start>Search</button>
+    <input class="input-foto" type="text" name="foto" placeholder="Search images..." />
+    <button class="btn-foto" type="submit" data-start>Search</button>
 
   </form>
 
   <ul class="gallery"></ul>
+
+  <div class="button-container">
+    <button class="js-load-more load-more-hidden">Load more</button>
+  </div>
   <span class="loader"></span>
 
 
