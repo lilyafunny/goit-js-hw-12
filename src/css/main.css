@@ -98,10 +98,6 @@ p {
     margin-right: 25px;
 }
 
-.js-search-form {
-    width: 300px;
-    margin: 0 auto;
-}
 
 
 
@@ -163,4 +159,86 @@ p {
     50% {
         transform: scale(1) translate(-50%, -50%);
     }
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.load-more-hidden {
+    display: none;
+}
+
+.load-more {
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.04em;
+    display: inline-block;
+    padding: 8px 16px;
+    text-align: center;
+    border: none;
+    border-radius: 8px;
+    background-color: #4E75FF;
+    color: #fff;
+    transition: background-color var(--animation-duration) var(--timing-function);
+}
+
+.load-more:hover {
+    background-color: #6C8CFF;
+}
+
+.js-search-form {
+    width: 371px;
+    margin: 0 auto;
+    display: flex;
+}
+
+
+.input-foto {
+    width: 272px;
+    height: 40px;
+    border: 1px solid #808080;
+    border-radius: 4px;
+    padding-left: 16px;
+    font-family: Montserrat;
+    font-weight: 400;
+    line-height: 24px;
+    font-size: 16px;
+    letter-spacing: 0.04em;
+    margin-right: 8px;
+    box-sizing: border-box;
+    outline: none;
+    transition: border-color var(--animation-duration) var(--timing-function);
+}
+
+.btn-foto {
+    width: 91px;
+    height: 40px;
+    border: none;
+    border-radius: 8px;
+    background-color: #4E75FF;
+    color: #FFFFFF;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.04em;
+
+    transition: background-color var(--animation-duration) var(--timing-function);
+}
+
+.input-foto:hover {
+    border-color: #000000;
+}
+
+.input-foto:focus {
+    border-color: #4E75FF;
+}
+
+.btn-foto:hover {
+    background-color: #6C8CFF
 }
